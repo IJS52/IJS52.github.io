@@ -1,0 +1,58 @@
+@charset "utf-8";
+/*
+Author: Ben Romero
+Date: 4/3
+Purpose: style cascading sheet for index
+*/
+body{
+    background-color: floralwhite;
+    
+}
+/*
+    Navigation Menu
+*/
+li{
+    float: left;
+    
+}
+li a{
+    display: block;
+    color: white;25
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover{
+    background-color: black;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262323;
+}
+/*
+    Headers and paragraphs
+*/
+.head{
+    font-style: italic;
+    /*
+        Increases the size of text 2.5 times larger
+    */
+    font-size: 2.5em;
+    text-align: left;
+    font-weight: bold;    
+}
+
+.paragraph{
+    font-size: 1.10em; 
+}
+/*
+    Banner image
+*/
+
+    .banner{
+        width: 100%;
+    }
